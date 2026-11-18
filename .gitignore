@@ -1,0 +1,48 @@
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Python environments and generated artifacts
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local datasets and acquisition outputs
+data/raw/**
+!data/raw/.gitkeep
+data/validated/**
+!data/validated/.gitkeep
+
+# Generated reports and logs
+reports/**
+!reports/*/.gitkeep
+logs/**
+!logs/.gitkeep
+
+# Local checkpoints, archives, project notes, and backups
+*_checkpoint.json
+PROJECT_HANDOFF_*.md
+*.zip
+*handoff*.md
+*architecture*.txt
+*.bak
+*_backup*
+*.backup*
+
+# Notebook runtime state
+.ipynb_checkpoints/
+
+# Machine-specific editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
