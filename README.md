@@ -34,7 +34,7 @@ python -m pip install -e .
 
 From the project directory, run:
 
-```sh
+```bash
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
@@ -54,7 +54,7 @@ python -m unittest discover -s tests -v
 
 **macOS or Linux:**
 
-```sh
+```bash
 python -m unittest discover -s tests -v
 ```
 
